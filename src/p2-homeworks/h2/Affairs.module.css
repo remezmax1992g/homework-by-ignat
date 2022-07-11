@@ -1,3 +1,41 @@
-.someClass {
+.button {
+    margin: 5px;
+    width: 60px;
 
+    outline: none;
+    background: #003300;
+    color: #99FF99;
+}
+
+.button:focus {
+    outline: #99FF99 solid 1px;
+}
+
+.button:active {
+    background: #99FF99;
+}
+
+.active {
+    background: #335533;
+}
+
+.affair {
+    display: flex;
+}
+
+.name {
+    margin: 10px;
+    width: 100px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
 }
