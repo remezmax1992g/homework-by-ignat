@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {v1} from 'uuid'
 import GreetingContainer from './GreetingContainer'
 
 // types
@@ -12,7 +13,7 @@ function HW3() {
     const [users, setUsers] = useState<Array<UserType>>([]) // need to fix any
 
     const addUserCallback = (name: string) => {
-        let id = "323234";
+        let id = v1();
         setUsers([...users, {_id: id, name: name}]) // need to fix
     }
 
