@@ -1,0 +1,36 @@
+.link {
+    text-decoration: none;
+    color:#7af;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #c9f;
+}
+
+.active {
+    color: greenyellow;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+
+    margin: 20px;
+
+    background: greenyellow;
+}
+
+.header {
+    display: flex;
+
+    width: 280px;
+
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
