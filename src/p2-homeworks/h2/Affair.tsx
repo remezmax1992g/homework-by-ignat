@@ -20,6 +20,7 @@ function Affair(props: AffairPropsType) {
         <div className={classes.affair}>
             <div className={classes.name}>{props.affair.name}</div>
             <div className={priorityClass}>{props.affair.priority}</div>
+            <div>ok</div>
             <SuperButton className={classes.name + ' ' + classes.button} onClick={deleteCallback}>X</SuperButton>
             {/*<button >X</button>*/}
         </div>
