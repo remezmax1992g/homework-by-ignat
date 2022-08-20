@@ -1,7 +1,7 @@
 .select{
     width: 50px;
     padding: 5px;
-
+    margin-left: 5px;
     cursor: pointer;
     background-color: #99FF99;
     color: red;

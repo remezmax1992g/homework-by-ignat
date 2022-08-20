@@ -1,0 +1,21 @@
+.buttons{
+    display: flex;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 250px;
+    background-color: #bbffbb;
+}
+.peopleContainer{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px
+}
+.name{
+
+}
+.age{
+
+}
