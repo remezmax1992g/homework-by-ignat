@@ -1,3 +1,6 @@
 .App {
-
+    background-image: url("https://www.bilobil.net/media/store/ru/TEST-news-img.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
 }
