@@ -1,4 +1,3 @@
-
 type ActionLoadingType = ReturnType<typeof loadingAC>
 
 const LOADING = "LOADING"
